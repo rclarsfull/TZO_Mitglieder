@@ -1,0 +1,35 @@
+class Mitglied {
+
+    private  String vorname;
+    private  String nachname;
+    private  String strasse;
+    private  String hausnummer;
+    private  int    plz;
+    private  String stadt;
+    private  int    gTag;
+    private  int    gMonat;
+    private  int    gJahr;
+    private  int    telefon;
+    private  int    mobil;
+    private   String eMail;
+
+    public Mitglied(String vN,String nN){
+        this.vorname=vN;
+        this.nachname=nN;
+    }
+
+    public String getGeburstag(){
+        return ()
+    }
+
+    public void toString(){
+
+        System.out.println();
+        System.out.println();
+
+        System.out.println(vorname+""+nachname);
+        System.out.println(strasse+" "+hausnummer);
+        System.out.println(plz+" "+stadt);
+        System.out.println("Tel: "+telefon );
+    }
+}
