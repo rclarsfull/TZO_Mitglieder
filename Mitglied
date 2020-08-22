@@ -19,7 +19,7 @@ class Mitglied {
     }
 
     public String getGeburstag(){
-        return ()
+        return (gTag+"."+gMonat+"."+gJahr)
     }
 
     public void toString(){
@@ -30,6 +30,11 @@ class Mitglied {
         System.out.println(vorname+""+nachname);
         System.out.println(strasse+" "+hausnummer);
         System.out.println(plz+" "+stadt);
-        System.out.println("Tel: "+telefon );
+        System.out.println(this.getGeburstag());
+        System.out.println("Tel: "+telefon);
+        System.out.println("Mobil: "+mobil);
+        System.out.println("E-Mail: "+eMail);
+
+
     }
 }
